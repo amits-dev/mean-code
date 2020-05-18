@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('mean-code app is running!');
+    expect(page.getTitleText()).toEqual('pwa-ng app is running!');
   });
 
   afterEach(async () => {
